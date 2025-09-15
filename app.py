@@ -203,7 +203,7 @@ else:
             # end_mileage의 기본값이 start_mileage보다 크거나 같도록 동적으로 설정합니다.
             # 사용자가 start_mileage를 15000.0보다 높게 입력해도 문제가 없습니다.
             end_mileage_default = max(start_mileage, 15000.0)
-            end_mileage = st.number_input(
+            end_mileage = st.number_input(
                 "최종 주행거리 (km)",
                 value=end_mileage_default,
                 step=0.1,
