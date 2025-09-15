@@ -205,9 +205,9 @@ else:
             end_mileage_default = max(start_mileage, 15000.0)
             end_mileage = st.number_input(
                 "최종 주행거리 (km)",
-                value=end_mileage_default,
-                step=0.1,
-                min_value=start_mileage
+                value=end_mileage_default,
+                step=0.1,
+                min_value=start_mileage
             )
 
         if st.button("운행기록부 생성"):
